@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- CSS links -->
+<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<!-- Bootstrap CDN -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!-- JQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower&display=swap" rel="stylesheet">
+
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+        .cener-logo {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uk-position-relative">
+        <img src="./assets/images/surfbechsandlandscapebanner.jpg" class="center-fit" alt="beachlandscape">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent uk-light a" uk-navbar>
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-paent"><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#">Locations</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="africa.html">Africa</a></li>
+                                    <li><a href="australia.html">Australia</li>
+                                    <li><a href="europe.html">Europe</a></li>
+                                    <li><a href="aisaPac.html">Asia Pacific</a></li>
+                                    <li><a href="northAmerica.html">North America</a></li>
+                                    <li><a href="southAmerica.html">South America</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="#">Sustainability</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+            <div class="center-logo">
+                <img src="assets/images/templogo.gif">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- <div uk-grid>
+        <div class="uk-width-1-2">
+            <div class="photo">
+                <img src="" class="image">
+            </div>
+        </div>
+         -->
+
+        <!-- <div class="uk-width-1-2">
+            <div class="content">
+               <p><i><strong>Packages include roundtrip airline tickets, Accomodations, Select meals and Transportation</strong></i></p>
+                <p class="package">Accomodations: 4 nights</p>
+                <p class="package">Meals: Breakfast</p>
+                <p class="package">Transportation: Ground Transportation Included</p>
+                <p class="package">About Location: </p>
+                <p class="package">Level of Difficulty: </p>
+                <p class="package">About: </p>
+
+            </div>
+
+        </div> -->
+    </div>
+    <div class="uk-container-large">
+        <div class="uk-child-width-1-2@m uk-grid-small uk-grid-match" uk-grid>
+            <div>
+                <div class="uk-card uk-card-default uk-card-body">
+                    <img data-src="assets/images/hawaii.jpeg" width="600" height="600" alt="" uk-img>
+                </div>
+            </div>
+            <div>
+                <div class="uk-card uk-card-default uk-text-left@s uk-card-body">
+                    <h3 class="uk-card-title">Location Information</h3>
+                    <li class="package1"><strong>Country:</strong></li>
+                    <li class="package1"><strong>City:</strong></li>
+                    <li class="package1"><strong>Location:</strong></li>
+                    <li class="package1"><strong>Airport:</strong></li>
+                    <li class="package1"><strong>Best Time to Visit:</strong></li>
+                    <li class="package1"><strong>Hotels:</strong></li>
+                    <li class="package1"><strong>Difficulty Level:</strong></li>
+                   
+                   <h3 class="uk-card-title">Package Inclusions</h3>
+                   <li class="package1"><strong>Accomodations: 4 nights</strong></li>
+                   <li class="package1"><strong>Meals: Breakfast Included</strong></li>
+                   <li class="package1"><strong>Transportation: Roundtrip Transfers</strong></li>
+                   <li class="package1"><strong>Area Information:</strong></li>
+                   <li class="package1"><strong>About:</strong></li>
+
+                </div>
+            </div>
+    </div>
+  
+
+    <footer class="site foooter" uk-sticky>
+
+        <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+            <h3>Contact Information</h3>
+            <ul class="uk-list">
+                <li>Phone: (949) 388-3668</li>
+                <li><a href="mailto:info@suttontravel.com">Email: info@suttontravel.com</a></li>
+                <li>Laguna Niguel, CA 92677</li>
+            </ul>
+        </div>
+
+
+    </footer>
+</body>
+<script>
+    UIkit.grid(element, options);
+</script>
+
+</html>

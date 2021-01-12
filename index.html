@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- CSS links -->
+<link rel="stylesheet" href="./assets/css/reset.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<!-- Bootstrap CDN -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+<!-- JQuery CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower|Kaushan+Script|Play|Prompt&display=swap"
+    rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Quicksand|Roboto&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo|Indie+Flower&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
+
+<!-- UIkit CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css" />
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .imgbox {
+            display: grid;
+            height: 100%;
+        }
+
+        .center-fit {
+            max-width: 100%;
+            max-height: 100vh;
+            margin: auto;
+        }
+
+        .cener-logo {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="uk-position-relative">
+
+        <img src="./assets/images/surfbechsandlandscape.jpg" class="center-fit" alt="beachlandscape">
+        <div class="uk-position-top">
+            <nav class="uk-navbar-container uk-navbar-transparent uk-light a" uk-navbar>
+                <div class="uk-navbar-right">
+
+
+                    <!-- ************************ SIDE NAVBAR ************************************************** -->
+
+                    <div id="offcanvas-usage" uk-offcanvas>
+                        <div class="uk-offcanvas-bar">
+
+                            <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+                            <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                <li class="uk-paent"><a href="index.html">Home</a></li>
+                                <li class="uk-parent"><a href="Africa.html">Africa</a></li>
+                                <li class="uk-parent"><a href="contactUs.html">Contact Us</a></li>
+                                <li class="uk-active"><a href="sustainability.html"
+                                        class="uk-text-bold">Sustainability</a></li>
+                            </ul>
+                            <i uk-icon="icon: menu; ratio: 2"></i>
+                        </div>
+                    </div>
+                    <!-- **************************** SIDE NAVBAR END ********************************************** -->
+
+                    <ul class="uk-navbar-nav">
+                        <li class="uk-active"><a href="index.html">Home</a></li>
+                        <li>
+                            <a href="#">Locations</a>
+                            <div class="uk-navbar-dropdown">
+                                <ul class="uk-nav uk-navbar-dropdown-nav">
+                                    <li class="uk-active"><a href="africa.html">Africa</a></li>
+                                    <li><a href="australia.html">Australia</li>
+                                    <li><a href="europe.html">Europe</a></li>
+                                    <li><a href="aisaPac.html">Asia Pacific</a></li>
+                                    <li><a href="northAmerica.html">North America</a></li>
+                                    <li><a href="southAmerica.html">South America</a></li>
+                                </ul>
+                            </div>
+
+
+
+                        </li>
+                        <li><a href="#">Sustainability</a></li>
+
+                    </ul>
+                    <i uk-icon="icon: menu; ratio: 2"></i>
+                </div>
+            </nav>
+
+
+            <div class="center-logo logoPlace">
+                <img src="./assets/images/templogo.gif">
+
+            </div>
+        </div>
+        <div class="uk-container-large uk-text-center@l">
+            <blockquote class="quote">"It's all about where your mind's at." <blockquote class="quoteCredit">-Kelly
+                    Slater</blockquote>
+            </blockquote>
+
+            <!-- Destination cards begin -->
+            <div class="uk-container-large heavy">
+                <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-hover uk-card-body dest">
+                                <h3 class="uk-card-title">Africa</h3>
+                                <a href="./africa.html"><img data-src="assets/images/lionafrica.jpeg" width="600"
+                                        height="600" alt="" uk-img></a>.
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-hover uk-card-body dest">
+                            <h3 class="uk-card-title">Australia</h3>
+                            <a href="./australia.html"><img data-src="assets/images/aus.jpeg" width="600" height="600"
+                                    alt="" uk-img></a>
+
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-hover uk-card-body dest">
+                            <h3 class="uk-card-title">Europe</h3>
+                            <a href="./europe.html"><img data-src="assets/images/eu.jpeg" width="600" height="600"
+                                    alt="" uk-img></a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            
+            <div class="uk-container-large">
+                <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+                    <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                        <div>
+                            <div class="uk-card uk-card-hover uk-card-body dest" style="width: 15rem">
+                                <h3 class="uk-card-title">Asia Pacific</h3>
+                                <a href="./aisaPac.html"><img data-src="assets/images/asia.jpeg" width="600"
+                                        height="600" alt="" uk-img></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-hover uk-card-body dest" style="width: 15rem">
+                            <h3 class="uk-card-title">North America</h3>
+                            <a href="./northAmerica.html"><img data-src="assets/images/hawaii.jpeg" width="600"
+                                    height="600" alt="" uk-img></a>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="uk-card uk-card-hover uk-card-body dest" style="width: 15rem">
+                            <h3 class="uk-card-title">South America</h3>
+                            <a href="./southAmerica.html"><img data-src="assets/images/soAmerica.jpeg" width="600"
+                                    height="600" alt="" uk-img></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="uk-container-large">
+                    <div class="uk-child-width-1-3@s uk-grid-match" uk-grid>
+                        <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
+                            <div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <footer>
+                        <div class="uk-grid-collapse uk-child-width-expand@s uk-text-center" uk-grid>
+                            <div>
+                                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                                    <h3>Contact Information</h3>
+                                    <ul class="uk-list">
+                                        <li>Phone: (949) 388-3668</li>
+                                        <li><a href="mailto:info@suttontravel.com">Email: info@suttontravel.com</a></li>
+                                        <li>Laguna Niguel, CA 92677</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                                    <h3>Useful Links</h3>
+                                    <ul class="uk-list">
+                                        <li><a href="https://cibtvisas.com/" target="_blank">CIBT Visa and Passport
+                                                Service</a>
+                                        </li>
+                                        <li><a href="https://travel.state.gov/" target="_blank">Check US Passport and
+                                                Visa
+                                                Requirements</a></li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="uk-background-secondary uk-padding uk-light uk-height-medium line">
+                                    <h3>Social Media</h3>
+
+                                    <a href="https://www.facebook.com/suttontravelus" uk-icon="icon: facebook"
+                                        target="_blank"></a>
+                                    <a href="https://www.instagram.com/suttontravelusa/" uk-icon="icon: instagram"
+                                        target="_blank"></a>
+                                    <a href="https://pinterest.com/suttontravel" uk-icon="icon: pinterest"
+                                        target="_blank"></a>
+                                    <a href="https://www.yelp.com/biz/sutton-travel-laguna-niguel?osq=sutton+travel"
+                                        uk-icon="icon: yelp" target="_blank"></a>
+                                </div>
+
+                            </div>
+                           
+                        </div>
+
+
+                    </footer>
+</body>
+
+</html>
+
+<script>
+    UIkit.img(element, options);
+
+    UIkit.offcanvas(element, options);
+    UIkit.offcanvas(element).show();
+
+</script>

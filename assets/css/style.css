@@ -1,0 +1,178 @@
+
+.a { color: white;
+    font-weight: bold;
+    }
+   
+    .center-logo {
+        float: left;
+        align-content: center;
+        margin-left: 50px;
+               
+    }
+
+    .logoPlace {
+        position: static;
+    }
+
+    .quote {
+        text-align: center;
+        font-size: 50px;
+        padding: 100px;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .imageSquare {
+        width: 300px;
+        height: 300px;
+    }
+
+    .quoteCredit {
+        font-size: 30px;
+        text-align: right;
+        padding-right: 250px;
+        padding-top: 25px;
+    }
+
+    #page-footer, #page-wrapper:after {
+        height: 60px;
+    }
+    #page-footer {
+        background-color: #f5f5f5;
+    }
+
+    h3 {
+        color: white;
+    }
+
+    .border {
+        background-color: black;
+        height: 100px;
+    }
+    
+.photo {
+    margin: 80px;
+
+}
+    .content {
+        width: 100%;
+        height: 500px;
+        margin-top: 80px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+    } 
+
+    .package {
+        margin-left: 30px;
+        font-family: 'Prompt', sans-serif;
+    }
+
+    .package1 {
+        margin-left: 30px;
+        font-family: 'Prompt', sans-serif;
+        font-size: 10pt;
+    }
+
+    li {
+        letter-spacing: 1px;
+        line-height: 0.7;
+    }
+
+    h3 { 
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .logoPlace {
+
+    }
+
+.title {
+    font-size: 30px;
+
+}
+    .image {
+    height: 100%;
+    width: auto;
+    }
+
+    .site-footer { 
+        height: 142px; 
+}
+
+
+.dest {
+    float: right;
+    margin-bottom: 100px;
+    
+}
+/* Africa page */
+.package1 {
+    padding: 10px;
+    font-family: 'Prompt', sans-serif;
+    
+}
+
+
+    @media screen and (max-width: 748px) {
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        .package1 {
+            margin-left: 30px;
+            font-family: 'Prompt', sans-serif;
+            font-size: 12pt;
+
+        }
+
+        .quote {
+            text-align: center;
+            font-size: 24px;
+            padding: 10px;
+            font-family: 'Prompt', sans-serif;
+        }
+
+        .quoteCredit {
+            font-size: 24px;
+            text-align: right;
+            padding-right: 25px;
+            padding-top: 12.5px;
+        }
+    }
+
+    @media only screen and (max-width: 300px) {
+        /* img {
+            background-image: url(/assets/images/templogomobile.gif);
+            width: 100%;
+            height: auto;
+          }
+           */
+          .quote {
+            text-align: center;
+            font-size: 18px;
+            padding: 25px;
+            font-family: 'Prompt', sans-serif;
+        }
+    
+        .quoteCredit {
+            font-size: 18px;
+            text-align: right;
+            padding-right: 25px;
+            padding-top: 12.5px;
+        }
+
+        .package1 {
+            margin-left: 30px;
+            font-family: 'Prompt', sans-serif;
+            font-size: 6pt;
+        }
+
+    
+               
+           
+          #soon { font-size: 30px;
+    }     
+      } 
+
